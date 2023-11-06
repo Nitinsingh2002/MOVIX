@@ -17,14 +17,13 @@ function HeroBanner() {
     const { data, loading } = useFetch("/movie/popular")
 
 
-console.log("hope you enjoy application")
 
     // to change the background image in hero section when we refresh
     useEffect(() => {
         if (url && url.backdrop) {
             const bg = url.backdrop + data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
             setBackground(bg);
-            console.log("url.backdrop", background);
+            
         }
     }, [data, url]);
     
