@@ -11,7 +11,7 @@ import Img from '../lazyLoadImage/Img'
 import PosterFallback from "../../assets/no-poster.png";
 import CircleRating from "../circlerating/CircleRating";
 import "./style.scss";
-import Genres from "../genres/genres";
+import Genres from "../genres/Genres";
 
 
 

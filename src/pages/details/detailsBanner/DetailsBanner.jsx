@@ -10,7 +10,7 @@ import PlayIcon from '../PlayBtn.jsx'
 import Img from "../../../components/lazyLoadImage/Img.jsx";
 import PosterFallback from "../../../assets/no-poster.png";
 import CircleRating from "../../../components/circlerating/CircleRating.jsx";
-import Genres from "../../../components/genres/genres.jsx";
+import Genres from "../../../components/genres/Genres.jsx";
 import useFetch from "../../../customHook/useFetch.jsx";
 import VideoPopup from "../../../components/videoPopUp/VideoPopUp.jsx";
 

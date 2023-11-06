@@ -2,12 +2,12 @@ import { useState, useEffect, useDebugValue } from 'react';
 import { useActionData, useParams } from 'react-router-dom';
 import InfiniteScroll from 'react-infinite-scroll-component';
 import ContentWrapper from '../../components/contentWrapper/ContentWrapper'
-import { fetchDataFromApi } from '../../utils/Api';
+import { fetchDataFromApi } from '../../utils/api';
 // import MovieCard from "../../components/movieCard/MovieCard";
 
 
 import './style.scss'
-import Spinner from '../../components/spinner/spinner';
+import Spinner from '../../components/spinner/Spinner';
 import MovieCard from '../../components/movieCard/MovieCard';
 
 
